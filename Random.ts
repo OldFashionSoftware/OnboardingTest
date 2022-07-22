@@ -10,7 +10,7 @@ export class RandomHelper {
   }
   
   export interface IRandom {
-    getRandomNumber(min: number, max: number): number;
+    getRandomNumber2(min: number, max: number): number;
   }
   
   export class DefaultRandom implements IRandom {
